@@ -1,0 +1,32 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.banner{
+     background:url(../img/banniere.jpg);
+      height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 10px;
+}
+.banner_text{
+    margin: 0;
+    width: 300px;
+    height: 80px;
+     background-color: beige;
+     font-family: Arial, Helvetica, sans-serif;
+     opacity: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      position: absolute;
+  top: 50%;
+  left: 50%;
+transform: translate(-50%, -50%);
+border-radius: 30px;
+}
