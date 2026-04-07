@@ -51,15 +51,28 @@ main{
     width: 100%;
 }
 .container{
-    margin: 0 10px;
     width: 100%;
 }
 button{
 width: 20px;
+margin: 10px 0;
+border: none;
+background-color: #a90331;
+border-radius: 5px;
+}
+button::after{
+content: "MENU";
+margin-left: 10px;
+color: #a90331;
+font-weight: bold;
 }
 .nav{
+    background-color: lightgray;
     display: none;
     width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 .nav.open{
 
@@ -80,14 +93,25 @@ padding: 0;
 .nav_item {
     width: 100%;
    padding: 10px 0;
-    color: black;
 
 }
 .nav_item:hover {
     background-color: #a90331;
-   color: aliceblue;
 }
 .nav_link {
     text-decoration: none;
      color: rgb(0, 0, 0); 
+}
+.nav_link:hover {
+     color: rgb(255, 255, 255); 
+     cursor: pointer;
+}
+p{
+    text-align: justify;
+    margin:  10px;
+}
+@media screen and (max-width:1023px) and (min-width:639px){
+    main{
+        background-color: #fff;
+    }
 }
