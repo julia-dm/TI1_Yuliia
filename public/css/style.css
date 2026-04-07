@@ -30,3 +30,16 @@ body{
 transform: translate(-50%, -50%);
 border-radius: 30px;
 }
+/* MAIN-CONTENT ACCUEIL.HTML */
+.main_title{
+    margin: 0;
+    background-color: #a90331;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
