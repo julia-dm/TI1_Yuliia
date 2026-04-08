@@ -8,23 +8,17 @@
 </head>
 <body>
     <header>
-        <div class="banner">
-        <h1 class="banner_text">OSLO</h1>
-        </div>
+         <?php 
+    include ROOT_PATH."/view/inc/entete.php";
+       ?> 
     </header>
 <main>
     <div class="container">
         <div class="navigation">
     <nav class="nav" id="nav_menu">
-    <ul class="nav_list" >
-                <li class="nav_item"><a class="nav_link" href="accueil.html">Accueil</a></li>
-                <li class="nav_item"><a class="nav_link" href="geographie.html">Géographie</a></li>
-                <li class="nav_item"><a class="nav_link" href="histoire.html">Histoire</a></li>
-                <li class="nav_item"><a class="nav_link" href="culture.html">Culture</a></li>
-                <li class="nav_item"><a class="nav_link" href="galerie.html">Galerie</a></li>
-                <li class="nav_item"><a class="nav_link" href="contact.html">Contact</a></li>
-                <li class="nav_item"><a class="nav_link" href="liens.html">Liens</a></li>
-            </ul>
+   <?php 
+       include ROOT_PATH."/view/inc/menu.php";
+       ?>
     </nav>
     </div>
     <div class="content">
@@ -35,18 +29,12 @@
     <span>MENU</span>
 </div>
  <nav class="nav_mobile" id="nav_mobile">
-    <ul class="nav_mobile_list">
-                <li class="nav_mobile_item"><a class="nav_mobile_link" href="accueil.html">Accueil</a></li>
-                <li class="nav_mobile_item"><a class="nav_mobile_link" href="geographie.html">Géographie</a></li>
-                <li class="nav_mobile_item"><a class="nav_mobile_link" href="histoire.html">Histoire</a></li>
-                <li class="nav_mobile_item"><a class="nav_mobile_link" href="culture.html">Culture</a></li>
-                <li class="nav_mobile_item"><a class="nav_mobile_link" href="galerie.html">Galerie</a></li>
-                <li class="nav_mobile_item"><a class="nav_mobile_link" href="contact.html">Contact</a></li>
-                <li class="nav_mobile_item"><a class="nav_mobile_link" href="liens.html">Liens</a></li>
-            </ul>
+   <?php 
+       include ROOT_PATH."/view/inc/menu_mobile.php";
+       ?> 
     </nav>
     </div>
- <img src="img/histoire.png" alt="histoire"> 
+ <img src="img/geographie.png" alt="histoire"> 
  <p>
 Oslo occupe le territoire se situant à la limite septentrionale du fjord portant son nom, elle est traversée par la rivière Akerselva. Dans toutes les autres directions, la ville est entourée de collines verdoyantes. Les environs comptent une quarantaine d’îles, dont la plus importante est Malmøya (« L'Île du fer ») (0,56 km2), ainsi que pas moins de 343 lacs. Ceux-ci constituent une source importante d’eau potable pour tout l’ouest de la ville. Le taux de variation de la population est de 0,76 %.
 

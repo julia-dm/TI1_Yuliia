@@ -295,26 +295,30 @@ margin-bottom: 10px;
     text-decoration: none;
     color: #a90331;
 }
-
-
-
-
 form{
-    margin-top: 20px;
-    width: 100vh;
+   padding-top: 15px;
+    margin: 0 auto;
+    min-width: 1000px;
+     padding: 10px;
 }
-.wrapp_form{
-    width:100vh;
-    display: flex;
-margin-bottom: 10px;
+.button_form{
+display: block;
+margin: 0 auto;
+padding: 8px;
+border-radius: 10px;
 }
+
 input[type="text"]{
-  width: 100vh;
+    width: 100%;
     padding: 5px;
 
 }
 input[type="text"]:focus{
       outline: none;
+}
+.label_cover{
+display: flex;
+margin-bottom: 10px;
 }
 label{
   float: left;
@@ -323,9 +327,6 @@ label{
 }
 textarea{
     width: 100%;
-}
-textarea:focus{
-      outline: none;
 }
 
 /* GALLERY */
@@ -445,6 +446,13 @@ padding: 0 5px;
 .gallery a{
     flex: 0 0 calc(50% - 10px);
 }
+form{
+   padding-top: 15px;
+    margin: 0 auto;
+    min-width: 500px;
+   
+}
+
 }
 @media screen and (max-width:639px){
     .container{
@@ -533,5 +541,16 @@ justify-content: center
 img{
     width: 150px;
 }
+.label_cover{
+display: block;
+margin-bottom: 10px;
+}
+form{
+   padding-top: 15px;
+    margin: 0 auto;
+    min-width: 200px;
+   
+}
+
 }
 

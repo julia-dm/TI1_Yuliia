@@ -4,29 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-     <link href="/datas/dist/css/lightbox.css" rel="stylesheet" />
+     <link href="dist/css/lightbox.css" rel="stylesheet" />
 
     <title>Gallerie</title>
 </head>
 <body>
     <header>
-        <div class="banner">
-        <h1 class="banner_text">OSLO</h1>
-        </div>
+         <?php 
+      include ROOT_PATH."/view/inc/entete.php";
+       ?> 
     </header>
     <main>
     <div class="container">
         <div class="navigation">
     <nav class="nav">
-    <ul class="nav_list">
-                <li class="nav_item"><a class="nav_link" href="accueil.html">Accueil</a></li>
-                <li class="nav_item"><a class="nav_link" href="geographie.html">Géographie</a></li>
-                <li class="nav_item"><a class="nav_link" href="histoire.html">Histoire</a></li>
-                <li class="nav_item"><a class="nav_link" href="culture.html">Culture</a></li>
-                <li class="nav_item"><a class="nav_link" href="galerie.html">Galerie</a></li>
-                <li class="nav_item"><a class="nav_link" href="contact.html">Contact</a></li>
-                <li class="nav_item"><a class="nav_link" href="liens.html">Liens</a></li>
-            </ul>
+    <?php 
+       include ROOT_PATH."/view/inc/menu.php";
+       ?>
     </nav>
     </div>
     <div class="content">
@@ -37,41 +31,35 @@
     <span>MENU</span>
 </div>
  <nav class="nav_mobile" id="nav_mobile">
-    <ul class="nav_mobile_list">
-                <li class="nav_mobile_item"><a class="nav_mobile_link" href="accueil.html">Accueil</a></li>
-                <li class="nav_mobile_item"><a class="nav_mobile_link" href="geographie.html">Géographie</a></li>
-                <li class="nav_mobile_item"><a class="nav_mobile_link" href="histoire.html">Histoire</a></li>
-                <li class="nav_mobile_item"><a class="nav_mobile_link" href="culture.html">Culture</a></li>
-                <li class="nav_mobile_item"><a class="nav_mobile_link" href="galerie.html">Galerie</a></li>
-                <li class="nav_mobile_item"><a class="nav_mobile_link" href="contact.html">Contact</a></li>
-                <li class="nav_mobile_item"><a class="nav_mobile_link" href="liens.html">Liens</a></li>
-            </ul>
+    <?php 
+       include ROOT_PATH."/view/inc/menu_mobile.php";
+       ?> 
     </nav>
     </div>
 <div class="gallery">
-     <a class="image-link" href="img/1280px_Akershus_slott.jpg" data-lightbox="example-1">
+     <a class="image-link" href="img/1280px_Akershus_slott.jpg" data-lightbox="example-1"  data-title="Légende Image 1">
         <img class="example-image" src="img/480px_Akershus_slott.jpg" alt="image-1" />
     </a>
-    <a class="image-link" href="img/1280px_Holmenkollbakken.jpg" data-lightbox="example-1">
+    <a class="image-link" href="img/1280px_Holmenkollbakken.jpg" data-lightbox="example-1"  data-title="Légende Image 1">
         <img class="example-image" src="img/480px_Holmenkollbakken.jpg" alt="image-1" />
     </a>
-    <a class="image-link" href="img/1280px_MaisonRoyale_ParcChateau.jpg" data-lightbox="example-1">
+    <a class="image-link" href="img/1280px_MaisonRoyale_ParcChateau.jpg" data-lightbox="example-1"  data-title="Légende Image 1">
         <img class="example-image" src="img/480px_MaisonRoyale_ParcChateau.jpg" alt="image-1" />
     </a>
-    <a class="image-link" href="img/1280px_Nasjonalgalleriet_oslo.jpg" data-lightbox="example-1">
+    <a class="image-link" href="img/1280px_Nasjonalgalleriet_oslo.jpg" data-lightbox="example-1"  data-title="Légende Image 1">
         <img class="example-image" src="img/480px_Nasjonalgalleriet_oslo.jpg" alt="image-1" />
     </a>
-    <a class="image-link" href="img/1280px_Oslo_harbour.jpg" data-lightbox="example-1">
+    <a class="image-link" href="img/1280px_Oslo_harbour.jpg" data-lightbox="example-1"  data-title="Légende Image 1">
         <img class="example-image" src="img/480px_Oslo_harbour.jpg" alt="image-1" />
     </a>
-    <a class="image-link" href="img/1280px_Port.jpg" data-lightbox="example-1">
+    <a class="image-link" href="img/1280px_Port.jpg" data-lightbox="example-1"  data-title="Légende Image 1">
         <img class="example-image" src="img/480px_Port.jpg" alt="image-1" />
     </a>
 </div>
 </div>
 </div>
 </main>
-<script src="/datas/dist/js/lightbox-plus-jquery.js"></script>
+<script src="dist/js/lightbox-plus-jquery.min.js"></script>
 </body>
 <script src="js/script.js"></script>
 </html>
