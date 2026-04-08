@@ -9,5 +9,5 @@ if (!isset($_GET['p'])){
      include ROOT_PATH."/view/".$_GET['p'].".php";
 }else {
      
-     include ROOT_PATH."/view/error404.php";
+     include ROOT_PATH."/view/erreur404.php";
 }

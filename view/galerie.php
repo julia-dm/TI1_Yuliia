@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
      <link href="dist/css/lightbox.css" rel="stylesheet" />
 
-    <title>Gallerie</title>
+    <title>Galerie</title>
 </head>
 <body>
     <header>
@@ -37,22 +37,22 @@
     </nav>
     </div>
 <div class="gallery">
-     <a class="image-link" href="img/1280px_Akershus_slott.jpg" data-lightbox="example-1"  data-title="Légende Image 1">
+     <a class="image-link" href="img/1280px_Akershus_slott.jpg" data-lightbox="example-1"  data-title="Akershus slott">
         <img class="example-image" src="img/480px_Akershus_slott.jpg" alt="image-1" />
     </a>
-    <a class="image-link" href="img/1280px_Holmenkollbakken.jpg" data-lightbox="example-1"  data-title="Légende Image 1">
+    <a class="image-link" href="img/1280px_Holmenkollbakken.jpg" data-lightbox="example-1"  data-title="Holmenkollbakken">
         <img class="example-image" src="img/480px_Holmenkollbakken.jpg" alt="image-1" />
     </a>
-    <a class="image-link" href="img/1280px_MaisonRoyale_ParcChateau.jpg" data-lightbox="example-1"  data-title="Légende Image 1">
+    <a class="image-link" href="img/1280px_MaisonRoyale_ParcChateau.jpg" data-lightbox="example-1"  data-title="MaisonRoyale ParcChateau">
         <img class="example-image" src="img/480px_MaisonRoyale_ParcChateau.jpg" alt="image-1" />
     </a>
-    <a class="image-link" href="img/1280px_Nasjonalgalleriet_oslo.jpg" data-lightbox="example-1"  data-title="Légende Image 1">
+    <a class="image-link" href="img/1280px_Nasjonalgalleriet_oslo.jpg" data-lightbox="example-1"  data-title="Nasjonalgalleriet Oslo">
         <img class="example-image" src="img/480px_Nasjonalgalleriet_oslo.jpg" alt="image-1" />
     </a>
-    <a class="image-link" href="img/1280px_Oslo_harbour.jpg" data-lightbox="example-1"  data-title="Légende Image 1">
+    <a class="image-link" href="img/1280px_Oslo_harbour.jpg" data-lightbox="example-1"  data-title="Oslo harbour">
         <img class="example-image" src="img/480px_Oslo_harbour.jpg" alt="image-1" />
     </a>
-    <a class="image-link" href="img/1280px_Port.jpg" data-lightbox="example-1"  data-title="Légende Image 1">
+    <a class="image-link" href="img/1280px_Port.jpg" data-lightbox="example-1"  data-title="Port">
         <img class="example-image" src="img/480px_Port.jpg" alt="image-1" />
     </a>
 </div>

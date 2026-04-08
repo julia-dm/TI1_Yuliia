@@ -51,12 +51,12 @@ La commune s'étend sur 450 km2 et possède de grands parcs ainsi que des pistes
     <h3 class="title_links" >Dans ce site, vous trouvez diverses informations contenant</h3>
 <div class="links_wrapp accueil">
 
-               <a  href="geographie.html">Une brève presentation d'Oslo</a>
-                <a  href="histoire.html">Un rappel hisorique, de sa fondation à ajourd'hui</a>
-                <a  href="culture.html">Un tour d'horison en matière d'art et culture</a>
-                <a  href="galerie.html">Une galleriede photographies</a>
-               <a  href="contact.html">Un formoulaire pour nous contacter</a>
-               <a  href="liens.html">Des liens vers des sites partnaires</a>
+               <a  href="?p=geographie">Une brève presentation d'Oslo</a>
+                <a  href="?p=histoire">Un rappel hisorique, de sa fondation à ajourd'hui</a>
+                <a  href="?p=culture">Un tour d'horison en matière d'art et culture</a>
+                <a  href="?p=galerie">Une galleriede photographies</a>
+               <a  href="?p=contact">Un formoulaire pour nous contacter</a>
+               <a  href="?p=liens">Des liens vers des sites partnaires</a>
 </div>
 </div>
 </div>

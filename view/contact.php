@@ -35,28 +35,6 @@
     </nav>
     </div>
  <img src="img/contacts.jpg" alt="contacts">
- <!-- <form action="">
-    <div class="wrapp_form">
-<label for="name">NOM:</label>
-<input type="text" name="name" id="name">
-</div>
-<div class="wrapp_form">
-<label for="last_name">PRENOM:</label>
-<input type="text" name="last_name" id="last_name">
-</div>
-<div class="wrapp_form">
-<label for="city">VILLE:</label>
-<input type="text" name="city" id="city">
-</div>
-<div class="wrapp_form">
-<label for="mail">E-MAIL:</label>
-<input type="text" name="mail" id="mail">
-</div>
-<div class="wrapp_form">
-<label for="message">COMMENTAIRES:</label>
-<textarea name="message" id="" rows="10"></textarea >
-    </div>
- </form> -->
  <form action="">
    <h3>Pour nous laisser un commentaire ou pouur obtenir un renseignement complémentaire, remplissez le formulaire ci-dessous :</h3>
    <div class="label_cover">

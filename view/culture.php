@@ -56,9 +56,19 @@ Oslo Domkirke, la Cathédrale d'Oslo, inaugurée en 1697.
     <li>Munch-museet' (musée Munch), consacré à l'œuvre du peintre norvégien Edvard Munch.</li>
     <li>Musée d'art contemporain Astrup Fearnley, musée privé d'art contemporain.</li>
  <li>Jødisk Museum, musée juif d'Oslo, qui présente l'histoire et la culture des juifs de Norvège.</li>
-<li></li>
+ <li>Henie Onstad kunstsenter (centre d'art Henie Onstad) collection d'art contemporain, située dans un parc de sculptures.
+</li>
+<li>Musée Vigeland, près du Vigelandsanlegget, installation monumentale du sculpteur Norvégien Gustav Vigeland comportant plusieurs centaines d'œuvres, dans le parc Frogner.
+</li>
+<li>Le bateau d'Oseberg (musée des navires vikings d'Oslo).</li>
+<li>Naturhistorisk Museum, muséum d'histoire naturelle.</li>
+<li>Vikingskipshuset, musée des navires vikings d'Oslo, qui abrite le bateau d'Oseberg.</li>
+<li>Naturhistorisk Museum, muséum d'histoire naturelle.</li>
+<li>Norsk Folkemuseum (musée folklorique norvégien) : culture et histoire du pays, chalets norvégiens anciens et l'église de Gol.</li>
 </ul>
+ <a href="#go__up" class="go__up__link"> &#8593 </a>
 <h3 class="content_title">Personnalités</h3>
+<ul>
 <li>Carl Wilhelm Boeck (1808-1875), médecin et dermatologue, y est mort.</li>
 <li>Thomas Bennett (1814-1898), négociant britannique, pionnier du tourisme en Norvège, mort à Christiania.</li>
 <li>Anna Caspari Agerholt (1892-1943), écrivaine et activiste des droits des femmes.</li>
@@ -72,7 +82,8 @@ Oslo Domkirke, la Cathédrale d'Oslo, inaugurée en 1697.
 <li>Tuva Syversten (1983-), musicienne</li>
 <li>Aksel Rykkvin (2003), chanteur norvégien.</li>
 <li>Fredrikke Egeberg (1815-1861), pianiste et compositrice norvégienne.</li>
-Fredrikke Egeberg (1815-1861), pianiste et compositrice norvégienne.</p>
+</p>
+</ul>
   <a href="#go__up" class="go__up__link"> &#8593 </a>
 
  
