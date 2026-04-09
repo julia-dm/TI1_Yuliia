@@ -36,7 +36,7 @@
                   ?>
                </nav>
             </div>
-            <img src="img/histoire.png" alt="histoire">
+            <img class="img"  src="img/histoire.png" alt="histoire">
             <p>
                Après diverses spéculations, l’origine du nom de la ville semble s'être définitivement débarrassée des tergiversations et de certaines élucubrations romantiques ou plus anciennes, comme celle du géographe et historien Peder Claussøn Friis en 1613. Au Moyen Âge, le nom de la ville était transcrit Ásló, aussi bien qu’Ósló, soit « la terre des Ases ». Le mot ló, en vieux norrois, signifie « clairière » ou « bande de terre » ; le terme ás en vieux norrois ou ós en ancien høgnorsk fait référence à une des deux grandes familles de dieux nordiques.
 

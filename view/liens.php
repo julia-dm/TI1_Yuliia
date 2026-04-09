@@ -36,7 +36,7 @@
                         ?>
                     </nav>
                 </div>
-                <img src="img/liens.jpg" alt="liens">
+                <img class="img"  src="img/liens.jpg" alt="liens">
                 <div class="links_wrapp links">
                     <a class="" href="#">Berlin</a>
                     <a class="" href="#">Lissbone</a>

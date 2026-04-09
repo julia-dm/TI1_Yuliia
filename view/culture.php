@@ -36,7 +36,7 @@
                   ?>
                </nav>
             </div>
-            <img src="img/culture.jpg" alt="culture">
+            <img class="img"  src="img/culture.jpg" alt="culture">
             <h3 class="content_title">Monuments célèbres</h3>
             <p>
                Rådhuset, l'hôtel de Ville, où se tient annuellement la cérémonie publique du prix Nobel de la paix.

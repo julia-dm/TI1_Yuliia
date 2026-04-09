@@ -36,7 +36,7 @@
                         ?>
                     </nav>
                 </div>
-                <img src="img/geographie.png" alt="histoire">
+                <img class="img"  src="img/geographie.png" alt="histoire">
                 <p>
                     Oslo occupe le territoire se situant à la limite septentrionale du fjord portant son nom, elle est traversée par la rivière Akerselva. Dans toutes les autres directions, la ville est entourée de collines verdoyantes. Les environs comptent une quarantaine d’îles, dont la plus importante est Malmøya (« L'Île du fer ») (0,56 km2), ainsi que pas moins de 343 lacs. Ceux-ci constituent une source importante d’eau potable pour tout l’ouest de la ville. Le taux de variation de la population est de 0,76 %.
 

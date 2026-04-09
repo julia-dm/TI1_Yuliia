@@ -36,9 +36,9 @@
                   ?>
                </nav>
             </div>
-            <img src="img/contacts.jpg" alt="contacts">
+            <img  class="img" src="img/contacts.jpg" alt="contacts">
             <form action="">
-               <h3>Pour nous laisser un commentaire ou pouur obtenir un renseignement complémentaire, remplissez le formulaire ci-dessous :</h3>
+            <h3 class="title_links">Pour nous laisser un commentaire ou pouur obtenir un renseignement complémentaire, remplissez le formulaire ci-dessous :</h3>
                <div class="label_cover">
                   <label for="first_name">NOM:</label>
                   <input type="text" id="name" name="name" placeholder="Entrez votre nom ">
@@ -57,7 +57,7 @@
                </div>
                <div class="label_cover">
                   <label for="message">COMMENTAIRES:</label>
-                  <textarea name="message" id="message" rows="7" placeholder="Entrez vos commentaires"></textarea>
+                  <textarea name="message" id="message" placeholder="Entrez vos commentaires"></textarea>
                </div>
                <button class="button_form">Envoyer votre message </button>
             </form>

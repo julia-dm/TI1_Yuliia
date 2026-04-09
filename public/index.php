@@ -1,5 +1,5 @@
 <?php 
-require_once'../config.php';
+require_once(__DIR__ . '/../config.php');
 
 if (!isset($_GET['p'])){
     include ROOT_PATH."/view/accueil.php";

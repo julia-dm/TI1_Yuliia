@@ -55,7 +55,7 @@
                         <a class="image-link" href="img/1280px_MaisonRoyale_ParcChateau.jpg" data-lightbox="example-1" data-title="Maison Royale Parc Chateau">
                             <img class="example-image" src="img/480px_MaisonRoyale_ParcChateau.jpg" alt="image-1" />
                         </a>
-                        <p class="gallery_title"> Maiso nRoyale Parc Chateau</p>
+                        <p class="gallery_title"> Maison Royale Parc Chateau</p>
                     </div>
                     <div>
                         <a class="image-link" href="img/1280px_Nasjonalgalleriet_oslo.jpg" data-lightbox="example-1" data-title="Nasjonal gallerie Oslo">
