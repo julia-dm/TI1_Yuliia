@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Accueil</title>
+    <title>  <?= ucfirst($_GET['p']) ?></title>
 </head>
 <body>
     <header>
@@ -39,23 +39,23 @@
    <h3>Pour nous laisser un commentaire ou pouur obtenir un renseignement complémentaire, remplissez le formulaire ci-dessous :</h3>
    <div class="label_cover">
    <label for="first_name">NOM:</label>
-   <input type="text" id="name" name="name" >
+   <input type="text" id="name" name="name" placeholder="Entrez votre nom ">
    </div>
      <div class="label_cover">
    <label for="last_name">PRENOM:</label>
-   <input type="text" name="last_name" id="last_name">
+   <input type="text" name="last_name" id="last_name" placeholder="Entrez votre prenom">
    </div>
      <div class="label_cover">
 <label for="city">VILLE:</label>
-   <input type="text" id="name" name="name" >
+   <input type="text" id="name" name="name" placeholder="Entrez votre ville"  >
    </div>
     <div class="label_cover">
    <label for="mail">EMAIL:</label>
-   <input type="text" id="mail" name="mail" >
+   <input type="text" id="mail" name="mail" placeholder="entrez.1234votre@gmail.com" >
    </div>
      <div class="label_cover">
    <label for="message">COMMENTAIRES:</label>
-   <textarea name="" id="" rows="7"></textarea>
+   <textarea name="message" id="message" rows="7" placeholder="Entrez vos commentaires"></textarea>
    </div>
   <button  class="button_form">Envoyer votre message </button>
  </form>

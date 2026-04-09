@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Culture</title>
+    <title><?= ucfirst($_GET['p']) ?></title>
 </head>
 <body>
     <header id="go__up">
@@ -84,7 +84,7 @@ Oslo Domkirke, la Cathédrale d'Oslo, inaugurée en 1697.
 <li>Fredrikke Egeberg (1815-1861), pianiste et compositrice norvégienne.</li>
 </p>
 </ul>
-  <a href="#go__up" class="go__up__link"> &#8593 </a>
+  <a href="#go__up" class="go__up__link">↑</a>
 
  
 </div>

@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
      <link href="dist/css/lightbox.css" rel="stylesheet" />
 
-    <title>Galerie</title>
+    <title> <?= ucfirst($_GET['p']) ?></title>
 </head>
 <body>
     <header>
@@ -24,7 +24,7 @@
     </nav>
     </div>
     <div class="content">
- <h2 class="main_title">Gallerie Photo</h2>
+ <h2 class="main_title">Galerie Photo</h2>
  <div class="wrapper_nav_mobile">
  <div class="btn_wrapper">
     <button id="open_menu_btn">&#9776</button>
@@ -37,24 +37,42 @@
     </nav>
     </div>
 <div class="gallery">
+    <div>
      <a class="image-link" href="img/1280px_Akershus_slott.jpg" data-lightbox="example-1"  data-title="Akershus slott">
         <img class="example-image" src="img/480px_Akershus_slott.jpg" alt="image-1" />
     </a>
+    <p class="gallery_title">Akershus slott</p>
+    </div>
+    <div>
     <a class="image-link" href="img/1280px_Holmenkollbakken.jpg" data-lightbox="example-1"  data-title="Holmenkollbakken">
         <img class="example-image" src="img/480px_Holmenkollbakken.jpg" alt="image-1" />
     </a>
-    <a class="image-link" href="img/1280px_MaisonRoyale_ParcChateau.jpg" data-lightbox="example-1"  data-title="MaisonRoyale ParcChateau">
+     <p class="gallery_title">Holmenkollbakken</p>
+    </div>
+    <div>
+    <a class="image-link" href="img/1280px_MaisonRoyale_ParcChateau.jpg" data-lightbox="example-1"  data-title="Maison Royale Parc Chateau">
         <img class="example-image" src="img/480px_MaisonRoyale_ParcChateau.jpg" alt="image-1" />
     </a>
-    <a class="image-link" href="img/1280px_Nasjonalgalleriet_oslo.jpg" data-lightbox="example-1"  data-title="Nasjonalgalleriet Oslo">
+     <p class="gallery_title"> Maiso nRoyale Parc Chateau</p>
+    </div>
+    <div>
+    <a class="image-link" href="img/1280px_Nasjonalgalleriet_oslo.jpg" data-lightbox="example-1"  data-title="Nasjonal gallerie Oslo">
         <img class="example-image" src="img/480px_Nasjonalgalleriet_oslo.jpg" alt="image-1" />
     </a>
+     <p class="gallery_title">National galerie d'Oslo</p>
+    </div>
+    <div>
     <a class="image-link" href="img/1280px_Oslo_harbour.jpg" data-lightbox="example-1"  data-title="Oslo harbour">
         <img class="example-image" src="img/480px_Oslo_harbour.jpg" alt="image-1" />
     </a>
+     <p class="gallery_title">Oslo harbour</p>
+    </div>
+    <div>
     <a class="image-link" href="img/1280px_Port.jpg" data-lightbox="example-1"  data-title="Port">
         <img class="example-image" src="img/480px_Port.jpg" alt="image-1" />
     </a>
+     <p class="gallery_title">Port</p>
+    </div>
 </div>
 </div>
 </div>

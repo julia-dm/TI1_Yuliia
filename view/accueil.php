@@ -26,7 +26,7 @@
 <div class="wrapper_nav_mobile">
  <div class="btn_wrapper">
     <button id="open_menu_btn">&#9776</button>
-    <span>MENU</span>
+    <span class="menu_text">MENU</span>
 </div>
 
 
