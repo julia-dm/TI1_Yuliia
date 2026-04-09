@@ -11,7 +11,7 @@ html{
 }
 p{
     text-align: justify;
-    margin:  10px;
+    margin:  15px;
 
 }
 img{
@@ -85,9 +85,11 @@ margin-left: 10px;
     height: 50px;
     border-radius: 10px 10px 0 0;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+      text-align: center;
     width: 100%;
 }
 
@@ -146,6 +148,7 @@ LINKS IN ABOUT
 ===================== */
 
 .title_links{
+    text-align: center;
 margin: 0 auto;
 margin-bottom: 10px;
 }
@@ -160,7 +163,6 @@ margin-bottom: 10px;
     color: #a90331;
 }
 .accueil{
-  
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -224,9 +226,10 @@ textarea:focus{
     flex: 0 0 calc(33.33% - 10px);
 }
 .gallery img{
-    width: 99%;
+    width: 100%;
     display: block;
-    object-fit: cover;
+    
+
 }
 .example-image{
     padding: 3px;
@@ -237,6 +240,7 @@ textarea:focus{
 }
 .gallery_title{
 text-align: center;
+font-weight: bold;
 }
 
 
@@ -265,25 +269,24 @@ text-align: center;
 .links_wrapp{
 display: flex;
 justify-content: space-between;
-max-width: 400px;
+max-width: 600px;
 margin: 0 auto;
 gap:10px;
-}
-.links_wrapp .links{
-gap: 50px;
+text-align: center;
 }
 
-.links{
+
+.links {
+  display: flex;
   flex-wrap: wrap;
+}
 
-}
-.links a{
+.links a {
+  width: calc(33.33% - 8px);
   padding: 10px;
-text-decoration: none;
+  box-sizing: border-box;
+  text-decoration: none;
 color: #a90331;
-}
-.nav_item.active{
-    background-color:#a90331;
 }
 
 
@@ -293,6 +296,7 @@ color: #a90331;
     flex-direction: column;
 gap: 10px;
 }
+
 .navigation{
      position: sticky;
     top: 0;
@@ -341,6 +345,7 @@ padding: 0 5px;
     background-color: #a90331;
 
 }
+
 .gallery a{
     flex: 0 0 calc(50% - 10px);
 }
@@ -359,12 +364,12 @@ form{
  img{
         width: 250px;
     }
-button{
+.btn{
     display: flex;
     background-color: #a90331;
     color: white;
     border: none;
-    padding: 0 5px;
+    padding: 5px 10px;
     border-radius: 5px;
 }
 .menu_text{
@@ -376,6 +381,7 @@ button{
 }
 .main_title{
     width: 100%;
+    padding: 5px;
 }
 .btn_wrapper{
 display: flex;
@@ -446,9 +452,11 @@ form{
    
    
 }
-
+label{
+    margin-bottom: 5px;
 }
 
+}
 
 
 
