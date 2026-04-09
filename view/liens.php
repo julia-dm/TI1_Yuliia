@@ -24,7 +24,7 @@
                 </nav>
             </div>
             <div class="content">
-                <h2 class="main_title">Quelques liens vers nos partnaires</h2>
+                <h2 class="main_title">Quelques liens vers nos partenaires</h2>
                 <div class="wrapper_nav_mobile">
                     <div class="btn_wrapper">
                         <button class="btn" id="open_menu_btn">&#9776</button>
