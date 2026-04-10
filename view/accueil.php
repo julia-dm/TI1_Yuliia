@@ -37,7 +37,7 @@
                   ?>
                </nav>
             </div>
-            <img class="img" src="img/armoiries.png" alt="armoiries">
+            <img src="img/armoiries.png" alt="armoiries" class="img">
             <p>
                Oslo est la capitale d'État de la Norvège. La ville s'est appelée Christiania de 1624 à 1924, selon l'ancienne graphie latine héritée du danois, ou communément Kristiania en dano-norvégien. Le 1er janvier 1925, elle a officiellement repris le nom d'un modeste faubourg, site historique de la première ville, fondée au fond de l'Oslofjord par Harald III et promue capitale royale sous Håkon V.
 
