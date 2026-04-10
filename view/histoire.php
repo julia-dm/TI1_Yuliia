@@ -68,6 +68,7 @@
                Il aura fallu attendre la fin du xxe siècle pour que le pays se dote d'une véritable Bibliothèque nationale (Nasjonalbiblioteket) dont l'administration est répartie entre Oslo et Mo i Rana.
 
             </p>
+              <p class="source">Source: <a href="https://fr.wikipedia.org/wiki/Oslo">Wikipédia – Oslo</a></p>
          </div>
       </div>
    </main>

@@ -58,8 +58,10 @@
                <a href="?p=contact">Un formoulaire pour nous contacter</a>
                <a href="?p=liens">Des liens vers des sites partnaires</a>
             </div>
+            <p class="source">Source: <a href="https://fr.wikipedia.org/wiki/Oslo">Wikipédia – Oslo</a></p>
          </div>
       </div>
+
    </main>
 </body>
 <script src="js/script.js"></script>

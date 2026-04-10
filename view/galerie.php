@@ -76,6 +76,7 @@
                         <p class="gallery_title">Port</p>
                     </div>
                 </div>
+                  <p class="source">Source: <a href="https://fr.wikipedia.org/wiki/Oslo">Wikipédia – Oslo</a></p>
             </div>
         </div>
     </main>

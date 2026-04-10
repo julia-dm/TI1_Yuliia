@@ -40,6 +40,7 @@
                 </div>
                 <img src="img/404.jpg" alt="error">
                 <a class="error_link" href="./">Retour à l'accueil</a>
+                  <p class="source">Source: <a href="https://fr.wikipedia.org/wiki/Oslo">Wikipédia – Oslo</a></p>
             </div>
         </div>
     </main>
