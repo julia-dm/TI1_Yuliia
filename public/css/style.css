@@ -273,6 +273,7 @@ textarea:focus{
     box-sizing: border-box; 
     width: 100%; 
     object-fit: cover;
+   height: 399px;
 }
 .example-image:hover{
    transform:scale(0.98);
@@ -329,8 +330,14 @@ margin-bottom: 10px;
   text-decoration: none;
 color: #a90331;
 font-size: 20px;
+transition: transform 0.2s ease;
 }
 
+.links a:hover {
+  color: #000000;
+    text-decoration: underline;
+  transform: scale(1.1);
+}
 
 
 @media screen and (max-width:1023px) and (min-width:639px){

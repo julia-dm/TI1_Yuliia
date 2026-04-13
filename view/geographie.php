@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="go__up">
         <?php
         include ROOT_PATH . "/view/inc/entete.php";
         ?>
@@ -50,7 +50,8 @@
                     Le record de froid à Oslo a été atteint en février 1871 avec une température de −27,9 °C.
 
                     Les chutes de neige sont réparties équitablement sur les mois d'hiver et on compte en moyenne plus de 25 cm de neige trente jours par an. Les précipitations annuelles sont de 763 mm, avec des hivers plus secs que les étés.</p>
-              <p class="source">Source: <a href="https://fr.wikipedia.org/wiki/Oslo">Wikipédia – Oslo</a></p>
+              <a href="#go__up" class="go__up__link">↑</a>
+                    <p class="source">Source: <a href="https://fr.wikipedia.org/wiki/Oslo">Wikipédia – Oslo</a></p>
                 </div>
             
         </div>

@@ -11,11 +11,11 @@
 </head>
 
 <body>
-    <header>
+    <header  id="go__up">
         <?php
         include ROOT_PATH . "/view/inc/entete.php";
         ?>
-    </header>
+    </header >
     <main>
         <div class="container">
             <div class="navigation">
@@ -76,6 +76,7 @@
                         <p class="gallery_title">Port</p>
                     </div>
                 </div>
+                <a href="#go__up" class="go__up__link">↑</a>
                   <p class="source">Source: <a href="https://fr.wikipedia.org/wiki/Oslo">Wikipédia – Oslo</a></p>
             </div>
         </div>
